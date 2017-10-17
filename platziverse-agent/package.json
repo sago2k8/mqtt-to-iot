@@ -1,0 +1,25 @@
+{
+  "name": "platziverse-agent",
+  "version": "1.0.0",
+  "description": "simple iot platform ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"git+https://github.com/sago2k8/platziverse"
+  },
+  "author": "sago2k8",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "debug": "^3.0.1",
+    "defaults": "^1.0.3",
+    "mqtt": "^2.12.0",
+    "uuid": "^3.1.0"
+  }
+}
